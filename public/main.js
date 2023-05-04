@@ -1,5 +1,5 @@
-var thumbUp = document.getElementsByClassName("fa-thumbs-up");
-var thumbDown = document.getElementsByClassName("fa-thumbs-down");
+var thumbUp = document.getElementsByClassName("fa-check");
+var thumbDown = document.getElementsByClassName("fa-rotate-right");
 var trash = document.getElementsByClassName("fa-trash");
 
 Array.from(thumbUp).forEach(function(element) {
